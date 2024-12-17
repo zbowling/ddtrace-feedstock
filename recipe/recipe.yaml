@@ -20,7 +20,11 @@ build:
 requirements:
   build:
     - ${{ compiler('c') }}
+    - ${{ compiler('cxx') }}
     - ${{ stdlib("c") }}
+    - cmake
+    - ninja
+    - make
   host:
     - python
     - setuptools-scm >=4
@@ -28,6 +32,7 @@ requirements:
     - if: match(python, ">=3.7")
       then: cmake >=3.24.2,<3.28
     - setuptools-rust <2
+    - setuptools
     - pip
   run:
     - python
