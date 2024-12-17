@@ -29,8 +29,7 @@ requirements:
     - python
     - setuptools-scm >=4
     - cython
-    - if: match(python, ">=3.7")
-      then: cmake >=3.24.2,<3.28
+    - cmake >=3.24.2,<3.28
     - setuptools-rust <2
     - setuptools
     - pip
