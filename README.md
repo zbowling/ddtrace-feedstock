@@ -3,7 +3,7 @@ About ddtrace-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ddtrace-feedstock/blob/main/LICENSE.txt)
 
-
+Home: https://ddtrace.readthedocs.io/
 
 Package license: Apache-2.0 AND BSD-3-Clause AND 0BSD
 
