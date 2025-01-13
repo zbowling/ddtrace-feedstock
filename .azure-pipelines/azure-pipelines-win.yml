@@ -27,8 +27,6 @@ jobs:
     UPLOAD_TEMP: D:\\tmp
 
   steps:
-    - checkout: self
-      fetchDepth: 0
 
     - script: |
         call ".scripts\run_win_build.bat"
@@ -45,3 +43,5 @@ jobs:
         UPLOAD_PACKAGES: $(UPLOAD_PACKAGES)
         UPLOAD_TEMP: $(UPLOAD_TEMP)
         BINSTAR_TOKEN: $(BINSTAR_TOKEN)
+        FEEDSTOCK_TOKEN: $(FEEDSTOCK_TOKEN)
+        STAGING_BINSTAR_TOKEN: $(STAGING_BINSTAR_TOKEN)
