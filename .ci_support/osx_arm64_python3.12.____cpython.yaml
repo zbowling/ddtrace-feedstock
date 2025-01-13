@@ -31,3 +31,11 @@ target_platform:
 zip_keys:
 - - c_compiler_version
   - cxx_compiler_version
+
+CONDA_BUILD_SYSROOT:
+- /Users/zbowling/Projects/ddtrace-feedstock/SDKs/MacOSX11.0.sdk
+
+
+CONDA_BUILD_SYSROOT:
+- /Users/zbowling/Projects/ddtrace-feedstock/SDKs/MacOSX11.0.sdk
+

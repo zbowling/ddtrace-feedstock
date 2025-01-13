@@ -1,6 +1,6 @@
 context:
   name: ddtrace
-  version: 2.17.3
+  version: 2.18.1
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/ddtrace-${{ version }}.tar.gz
-  sha256: 2dcebe8edf4ec2a31455706dd32c784f955a7b04dd9127f1f747033fd432318a
+  sha256: 859d10ecf4cd2b9a58c2af38cf95d77bbaaca3c8f2527f0120f796d8afd57c53
 
 build:
   number: 0
